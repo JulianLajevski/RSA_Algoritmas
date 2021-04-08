@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\bin\Debug\RSA_TEST.exe.config
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\bin\Debug\RSA_TEST.exe
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\bin\Debug\RSA_TEST.pdb
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\obj\Debug\RSA_TEST.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\obj\Debug\RSA_TEST.Form1.resources
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\obj\Debug\RSA_TEST.Properties.Resources.resources
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\obj\Debug\RSA_TEST.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\obj\Debug\RSA_TEST.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\obj\Debug\RSA_TEST.exe
+C:\Users\Admin\source\repos\RSA_TEST\RSA_TEST\obj\Debug\RSA_TEST.pdb
