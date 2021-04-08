@@ -94,10 +94,10 @@ namespace RSA_TEST
 
         private List<int> decryption()
         {
-            
+
             string mesg = decryptionTextBox.Text;
             List<int> encryptedMsgDec = new List<int>();
-            
+
 
             foreach (char l in mesg)
             {
@@ -117,45 +117,7 @@ namespace RSA_TEST
             return decryptedMsgInt;
         }
 
-        private void encryption()
-        {
-            int e = eFind();
-            List<int> publicKey = new List<int>();
-            publicKey.Add(n);
-            publicKey.Add(e);
 
-            List<int> message = new List<int>();
-            List<int> encryptedMessage = new List<int>();
-
-            foreach (int a in publicKey)
-            {
-                using (StreamWriter writer = new StreamWriter(@"C:\Users\Admin\source\repos\RSA_algoritmas\RSA_algoritmas\publicKey.txt", true))
-                {
-                    writer.WriteLine(a);
-                }
-            }
-
-            foreach (char l in encryptionTextBox.Text)
-            {
-                message.Add(l);
-            }
-
-            foreach (int n in message)
-            {
-                BigInteger big = BigInteger.Pow(n, publicKey[1]);
-                int enc = (int)(big % publicKey[0]);
-                encryptedMessage.Add(enc);
-            }
-
-            string stringEncMessage = fromASCIIToString(encryptedMessage);
-
-            using (StreamWriter writer = new StreamWriter(@"C:\Users\Admin\source\repos\RSA_algoritmas\RSA_algoritmas\encrypted.txt", true))
-            {
-                writer.WriteLine(stringEncMessage);
-            }
-
-            resultTextBox.Text = stringEncMessage;
-        }
 
         private int eFind()
         {
