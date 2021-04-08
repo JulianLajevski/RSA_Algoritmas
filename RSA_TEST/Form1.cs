@@ -216,6 +216,8 @@ namespace RSA_TEST
 
             }
             decryptionTextBox.Text = mesg;
+
+
         }
 
     }
